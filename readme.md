@@ -6,7 +6,8 @@ The scripts will generate and `bulk_docs` insert batches of 10000 documents at a
 
 ## Usage
 
-- Edit the first few lines in `products.js` or `emails.js` to add your target CouchDB instance and the name of an existing database.
+- `$ npm i`
+- Edit the first few lines in `products.js` or `emails.js` to add your target CouchDB instance and the name of an _existing_ database.
 - Run the script and specify the number of docs you want added, for example `$ node products.js 100000` to add 100000 products.
 
 ## Document Types
